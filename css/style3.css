@@ -1,0 +1,429 @@
+﻿@import url('http://www.lloydcenterice.com/styles/layout.css');
+body {
+	font-family: Arial, Helvetica, "Trebuchet MS", sans-serif;
+	font-size:small;
+	color: #000;
+	background-color: #67b;
+	padding:0px 0px 0px 0px;
+	margin:0px auto;
+}
+#main{
+	width:100%;
+	margin:0px auto;
+	padding:0px auto;
+	overflow:auto;
+	/*border:1px solid red;*/
+}
+
+
+/* --- Styles for Masthead or Header --- */
+#mastheadcontainer {
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding:10px 0px 0px 0px;
+	background-color: #dcb;
+	/*border-bottom:10px solid #0066CC;*/
+	border-bottom:10px #0066CC solid;
+	/*margin-bottom:20px;*/
+}
+#masthead {
+	text-align: right;
+	width: 1080px;
+	margin: 0px auto;
+	padding: 0px auto;
+	/*overflow: auto;*/
+}
+#mastheadcontent{
+	width:1080px;
+	height:122px;
+	margin:0px auto;
+	padding:0px auto;
+	/*background-image:url('../images/bk-masthead.jpg');*/
+	/*background-repeat:no-repeat;*/
+	background-color:#dcb;
+}
+#mastheadcontent h1{
+	font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	color:#0066CC;
+	/*color:#CCFFFF;*/
+	font-size:x-large;
+	font-weight:bold;
+	margin-top:2px;
+	margin-bottom:2px;
+	margin-right:10px;
+	padding:0px;
+}
+#mastheadcontent img {
+	float: left;
+	margin-left:20px;
+}
+#mastheadcontent p {
+	color:#0066CC;
+	/*color:#CCFFFF;*/
+	text-align: right;
+	margin: 0;
+	margin-top: 2px;
+	margin-right: 10px;
+	padding: 0;
+}
+.fb-like {
+	position:relative;
+	bottom:10px;
+	float:right;
+}
+/* --- End Styles for Masthead or Header --- */
+
+
+/* --- Container for 3 Columns --- */
+#bodycontainer{
+	width:1080px;
+	margin: 0px auto;
+	/*padding:0px auto;*/
+	overflow:hidden;
+	background-color:#cdf;
+	overflow:hidden;
+}
+
+
+
+/* --- Styles for Left Column of Body Container --- */
+#lsidebar {
+	float: left;
+	width: 180px;
+	overflow:visible;
+	background-color: #cdf;
+	top:4px;
+}
+
+
+
+#lsidebar ul {
+	list-style-type: none;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#lsidebar li {
+	display: block;
+	border: 0px 0px 1px 0px solid #ffffff;
+}
+#lsidebar a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #04b;
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #f9f9f9;
+}
+#lsidebar a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #04b;
+	border-bottom: 1px solid #f9f9f9;
+	background-color: #f9f9f9;
+}
+.lsidebar-adv-box{
+	width:154px;
+	border:1px solid black;
+	overflow:visible;	
+}
+
+
+
+/* --- Styles for Center Column of Body Container --- */
+#content {
+	float: left;
+	width: 500px;
+	min-height:800px;
+	padding: 0px 6px 0px 4px;
+	margin:0px;
+	background-color: #ffffff;
+	overflow:visible;
+	/*border:1px solid green;*/
+}
+
+/*IE6 fix*/
+#html #content
+{
+	height:800px;
+}
+
+#content img {
+	display: block;
+}
+#content h1{
+	font-family:"Trebuchet MS";
+	font-size:x-large;
+	font-weight: bold;
+	color:#808080;
+	text-align:left;
+	margin-top:22px;
+	margin-bottom:0px;
+}
+#content h2{
+	font-family:"Trebuchet MS";
+	font-size:large;
+	font-weight:normal;
+	color:#808080;
+	text-align:left;	
+}
+#content h3{
+	font-family:"Trebuchet MS";
+	font-size:medium;
+	font-weight:normal;
+	color:#808080;
+	text-align:left;	
+}
+#content p{
+	text-align:left;
+}
+#content iframe{
+	margin:0 auto;
+}
+#content table{
+	margin:0px auto;
+}
+#content img{
+	margin:0px auto;
+}
+#content form{
+	margin-left:0px;
+}
+.fieldLabels{
+	text-align:right;
+	width:30%;
+}
+
+/* --- Styles for Schedule Tables in Body Container --- */
+#adv_time_holder_div{
+	margin:0 auto;
+	margin-bottom:2px;
+	width:260px;
+	padding:0 auto;
+	padding-top:0px;
+	padding-bottom:6px;
+}
+#adv_no_public_notice{
+	color:red;
+}
+.adv_public_schedule{
+	margin-top:0px;
+	margin-bottom:2px;
+	padding-top:0px;
+	padding-bottom:0px;	
+}
+
+
+
+.daydiv{
+margin:0 auto;
+margin-bottom:6px;
+width:450px;
+border:solid 1px blue;
+padding:0 auto;
+padding-top:0px;
+padding-bottom:6px;
+}
+
+#classTable{
+width:300px;
+border:solid 1px blue;
+}
+
+.times{
+	margin-top:0px;
+	display:none;
+}
+
+.day{
+background-color:#cccccc;
+font-size:16px;
+font-weight:bold;
+margin-top:0px;
+margin-bottom:0px;
+padding-top:0px;
+}
+
+.classname{
+
+}
+
+.classtitle{
+font-weight:bold;
+font-size:14px;
+color:#04b;
+padding-bottom:0px;
+margin-bottom:4px;
+}
+
+.classschedule{
+font-size:12px;
+margin-top:0px;
+margin-bottom:2px;
+padding-top:0px;
+padding-bottom:0px;
+}
+
+
+
+/* --- Styles for Right Column of Body Container --- */
+#rsidebar {
+	float: left;
+	width: 380px;
+	background-color: #cdf;
+	margin-top:20px;	
+	overflow:visible;
+	text-align:center;
+	/*border:1px solid red;*/
+	padding-left:0px;
+	padding-right:0px;
+}
+.rbox{
+	width:294px;
+	border:4px solid;
+	border-color:#0066CC;
+	background-color:#dcb;
+	margin:0px auto;
+	margin-bottom:10px;
+	overflow:visible;
+	text-align:center;
+}
+
+#closedAct{
+	color:red;
+	width:294px;
+	border:4px solid;
+	border-color:#0066CC;
+	background-color:#dcb;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0px auto;
+	margin-bottom:10px;
+	overflow:visible;
+	text-align:center;
+}
+
+#openAct{
+	color:black;
+	width:294px;
+	border:4px solid;
+	border-color:#0066CC;
+	background-color:#dcb;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0px auto;
+	margin-bottom:10px;
+	overflow:visible;
+	text-align:left;
+}
+
+#curSkatingActivitiesHead{
+	color:#04b;
+	margin-top:18px;
+	margin-bottom:6px;
+}
+
+#currentActivitiesList{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px 0px 0px 18px;
+}
+
+
+#currentActivitiesList li{
+	color:#04b;
+	font-weight:bold;
+	margin-left:14px;
+}
+
+#disclaimer{
+	color:red;
+}
+
+
+.rbox h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:medium;
+	font-weight:bold;
+	color:#04b;
+}
+
+
+.rbox-adv{
+	width:270px;
+	overflow:visible;
+	border-top:8px solid #0066CC;
+	border-bottom:4px solid #0066CC;
+	margin-top:24px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.rbox-adv h3{
+	width:100%;
+	color:#04b;
+	font-weight:bold;
+	background-color:#dcb;
+	line-height:28px;
+	margin-top:0px;
+}
+.rbox-adv h4{
+	color:#808080;
+	font-weight:bold;
+}
+.rbox-adv p{
+	text-align:center;
+}
+img.display-adv{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+/* --- Styles for Footer --- */
+#footercontainer{
+	width:100%;
+	margin:0 auto;
+	overflow:auto;
+	border-top:10px solid #0066CC;
+}
+#footer {
+	/*clear: both;*/
+	width: 100%;
+	background-color: #dcb;
+	padding: 0;
+	overflow: auto;	
+}
+#footer p {
+	font-size: 0.9em;
+	text-align: center;
+	margin: 0px;
+	padding: 2px;
+}
+#footer a {
+	color: #333;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+
+/* --- General Styles --- */
+a {
+	color: #04b;
+	text-decoration: underline;
+}
+a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}
